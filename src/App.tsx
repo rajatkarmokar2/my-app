@@ -12,9 +12,9 @@ function App() {
 	return (
 		<div>
 			<Routes>
-				<Route path='/' element={<DashboardLayout />}>
-					<Route path='/contacts' element={<Contact />} />
-					<Route path='/charts-and-maps' element={<ChartsAndMaps />} />
+				<Route path='/my-app' element={<DashboardLayout />}>
+					<Route path='contacts' element={<Contact />} />
+					<Route path='charts-and-maps' element={<ChartsAndMaps />} />
 				</Route>
 			</Routes>
 		</div>

@@ -39,7 +39,7 @@ const Sidebar = (props: any) => {
 					<Menu className='mt-3 p-1'>
 						<MenuItem
 							className=' group group-[&.active]:bg-black '
-							component={<Link to='/Contacts' />}>
+							component={<Link to='contacts' />}>
 							<div className='flex text-xl items-center gap-3'>
 								<div>
 									<FaPhone className='font-1 w-[20px] h-[20px]' />
@@ -47,7 +47,7 @@ const Sidebar = (props: any) => {
 								Contacts
 							</div>
 						</MenuItem>
-						<MenuItem component={<Link to='/charts-and-maps' />}>
+						<MenuItem component={<Link to='charts-and-maps' />}>
 							<div className='flex text-xl items-center gap-3'>
 								<div>
 									<FaChartLine className='font-1 w-[20px] h-[20px]' />

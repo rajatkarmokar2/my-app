@@ -12,7 +12,7 @@ const DashboardLayout = (props: any) => {
 			<div className=' h-[100vh] fixed z-[1000] md:sticky top-0 '>
 				<Sidebar onSidebarHide={() => onSetShowSidebar(false)} showSidebar={showSidebar} />
 			</div>
-			<div className='flex-1 bg-white overflow-x-hidden h-[100%] '>
+			<div className='bg-white h-[100%] w-full overflow-hidden'>
 				<Header />
 				<Outlet />
 			</div>

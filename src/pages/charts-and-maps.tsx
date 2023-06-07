@@ -8,18 +8,6 @@ import RecoveredLineChart from '../components/charts/recovered-line-chart'
 import CovidMap from '../components/maps/covid-map'
 
 const ChartsAndMaps = () => {
-	// const covidCases = useQuery({
-	// 	queryKey: ['covidCases'],
-	// 	queryFn: getAllCovidCases,
-	// 	placeholderData: {},
-	// })
-
-	// const covidCasesByCountriesData = useQuery({
-	// 	queryKey: ['covidCasesByCountries'],
-	// 	queryFn: getAllCovidCasesByCountries,
-	// 	placeholderData: [],
-	// })
-
 	return (
 		<>
 			<div className='p-4 '>
@@ -41,18 +29,3 @@ const ChartsAndMaps = () => {
 }
 
 export default ChartsAndMaps
-
-// export const Example = () => {
-// 	const { isLoading, error, data }: any = useQuery({
-// 		queryKey: ['repoData'],
-// 		queryFn: () => getAllCovidCases().then((res) => res.json()),
-// 	})
-// 	console.log('api-data', data)
-
-// 	return (
-// 		<div>
-// 			{isLoading && <div>'Loading...'</div>}
-// 			{error && <div>An error has occurred: {error.message}</div>}
-// 		</div>
-// 	)
-// }

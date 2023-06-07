@@ -15,7 +15,7 @@ const DeathsLineChart = () => {
 
 	const covidCasesSeries = [
 		{
-			name: 'Sales',
+			name: 'Deaths',
 			data: Object.values(covidCasesByHistoricalDate.data.deaths).map((value: any) => value),
 		},
 	]

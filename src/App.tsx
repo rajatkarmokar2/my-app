@@ -16,6 +16,7 @@ function App() {
 					<Route path='contacts' element={<Contact />} />
 					<Route path='charts-and-maps' element={<ChartsAndMaps />} />
 				</Route>
+				<Route path='*' element={<h1>Not Found</h1>} />
 			</Routes>
 		</div>
 	)

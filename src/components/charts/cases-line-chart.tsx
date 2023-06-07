@@ -15,7 +15,7 @@ const CasesLineChart = () => {
 
 	const covidCasesSeries = [
 		{
-			name: 'Sales',
+			name: 'Cases',
 			data: Object.values(covidCasesByHistoricalDate.data.cases).map((value: any) => value),
 		},
 	]

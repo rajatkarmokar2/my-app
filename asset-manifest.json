@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/contact-app/static/css/main.869bbcfc.css",
-    "main.js": "/contact-app/static/js/main.daa7d335.js",
-    "static/js/787.a9a1a97d.chunk.js": "/contact-app/static/js/787.a9a1a97d.chunk.js",
-    "index.html": "/contact-app/index.html",
-    "main.869bbcfc.css.map": "/contact-app/static/css/main.869bbcfc.css.map",
-    "main.daa7d335.js.map": "/contact-app/static/js/main.daa7d335.js.map",
-    "787.a9a1a97d.chunk.js.map": "/contact-app/static/js/787.a9a1a97d.chunk.js.map"
+    "main.css": "/my-app/static/css/main.869bbcfc.css",
+    "main.js": "/my-app/static/js/main.10445fe8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/my-app/index.html",
+    "main.869bbcfc.css.map": "/my-app/static/css/main.869bbcfc.css.map",
+    "main.10445fe8.js.map": "/my-app/static/js/main.10445fe8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.869bbcfc.css",
-    "static/js/main.daa7d335.js"
+    "static/js/main.10445fe8.js"
   ]
 }

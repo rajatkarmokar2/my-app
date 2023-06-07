@@ -13,6 +13,7 @@ function App() {
 		<div>
 			<Routes>
 				<Route path='/my-app' element={<DashboardLayout />}>
+					<Route index element={<Contact />} />
 					<Route path='contacts' element={<Contact />} />
 					<Route path='charts-and-maps' element={<ChartsAndMaps />} />
 				</Route>

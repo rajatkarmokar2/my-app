@@ -22,7 +22,7 @@ const ChartsAndMaps = () => {
 						<RecoveredLineChart />
 					</div>
 				</div>
-				<div>{/* <CovidMap /> */}</div>
+				<div><CovidMap /></div>
 			</div>
 		</>
 	)
